@@ -18,7 +18,7 @@
 | 🎯 LTV concentration | Top 25% of customers → **~81% of total lifetime value** |
 | 🏆 Highest LTV categories | Smartphones, Smart TVs, Wearables (high margin + high volume) |
 
-**Bottom line:** Discount strategies move engagement metrics but do not improve ratings. The real lever for revenue growth is identifying and retaining high-CLV customers — the top quartile is worth 3.4× the average customer.
+**Bottom line:** Discount strategies move engagement metrics but do not improve ratings. The real lever for revenue growth is identifying and retaining high-CLV customers - the top quartile is worth 3.4× the average customer.
 
 ---
 
