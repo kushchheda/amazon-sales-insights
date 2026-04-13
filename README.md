@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Production--Ready-green)]()
 
-> **End-to-end data science project** analyzing 1,400+ Amazon products to uncover pricing strategy, customer engagement drivers, and lifetime value — using rigorous A/B testing, statistical inference, and CLV modeling.
+> **End-to-end data science project** analyzing 1,400+ Amazon products to uncover pricing strategy, customer engagement drivers, and lifetime value - using rigorous A/B testing, statistical inference, and CLV modeling.
 
 ---
 
@@ -14,11 +14,11 @@
 |---|---|
 | 💰 Targeting top 25% CLV users vs average | **+237% revenue uplift** ($19.7M → $66.4M per 10k customers) |
 | 📣 High-discount vs low-discount engagement | **+6.3% review count uplift** (statistically significant, p < 0.05) |
-| ⭐ Price/discount effect on ratings | **No meaningful impact** — product quality drives satisfaction |
+| ⭐ Price/discount effect on ratings | **No meaningful impact** - product quality drives satisfaction |
 | 🎯 LTV concentration | Top 25% of customers → **~81% of total lifetime value** |
 | 🏆 Highest LTV categories | Smartphones, Smart TVs, Wearables (high margin + high volume) |
 
-**Bottom line:** Discount strategies move engagement metrics but do not improve ratings. The real lever for revenue growth is identifying and retaining high-CLV customers — the top quartile is worth 3.4× the average customer.
+**Bottom line:** Discount strategies move engagement metrics but do not improve ratings. The real lever for revenue growth is identifying and retaining high-CLV customers - the top quartile is worth 3.4× the average customer.
 
 ---
 
@@ -44,7 +44,7 @@ amazon-sales-insights/
 ├── outputs/                       # Generated charts and summary reports
 ├── tests/
 │   └── test_ltv.py                # Unit tests for LTV calculations
-├── main.py                        # CLI entry point — runs full pipeline
+├── main.py                        # CLI entry point - runs full pipeline
 ├── requirements.txt
 └── README.md
 ```
@@ -77,7 +77,7 @@ amazon-sales-insights/
 - Infinite-horizon CLV formula: `CLV = (margin × freq) / (1 + discount_rate − retention)`
 - Rating-adjusted purchase frequency & retention rate
 - Product-level and category-level LTV aggregation
-- **Pareto/Lorenz curve** — top 25% users → 81% of LTV
+- **Pareto/Lorenz curve** - top 25% users → 81% of LTV
 - **Value-based cohort segmentation** (Low / Medium / High / Very High)
 - **Scenario analysis:** Conservative / Base Case / Optimistic assumptions
 
@@ -172,14 +172,14 @@ pytest tests/ -v
 
 ## 💡 Business Recommendations
 
-1. **Prioritize high-CLV customer retention** — the top 25% drives 81% of revenue. Invest disproportionately in loyalty programs for this segment.
-2. **Discounts are an engagement lever, not a quality signal** — use them to drive initial reviews and visibility, not to compensate for product issues.
-3. **Electronics & mobile accessories are your highest-LTV categories** — they combine high margins with large review volumes. Prioritize inventory and promotions here.
-4. **Run larger A/B experiments** — current sample sizes (n ≈ 700 per group) are underpowered for 15% MDE. Target 3,264+ per group for reliable results.
-5. **Consider adaptive allocation (bandit)** — in live product environments, ε-greedy strategies can reduce regret vs fixed 50/50 splits.
+1. **Prioritize high-CLV customer retention** - the top 25% drives 81% of revenue. Invest disproportionately in loyalty programs for this segment.
+2. **Discounts are an engagement lever, not a quality signal** - use them to drive initial reviews and visibility, not to compensate for product issues.
+3. **Electronics & mobile accessories are your highest-LTV categories** - they combine high margins with large review volumes. Prioritize inventory and promotions here.
+4. **Run larger A/B experiments** - current sample sizes (n ≈ 700 per group) are underpowered for 15% MDE. Target 3,264+ per group for reliable results.
+5. **Consider adaptive allocation (bandit)** - in live product environments, ε-greedy strategies can reduce regret vs fixed 50/50 splits.
 
 ---
 
 ## 📄 License
 
-MIT — free to use, adapt, and distribute with attribution.
+MIT - free to use, adapt, and distribute with attribution.
