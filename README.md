@@ -28,8 +28,6 @@
 amazon-sales-insights/
 ├── data/                          # Raw and processed datasets
 │   └── amazon.csv                 # Source: Amazon product listings
-├── notebooks/
-│   └── full_analysis.ipynb        # Original exploratory notebook
 ├── src/
 │   ├── data/
 │   │   └── loader.py              # Data loading & cleaning pipeline
